@@ -1,0 +1,688 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: hangerCharcterAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 97eed690ff2592c4c806a243795066cd, type: 2}
+  sprites:
+  - name: Img_Operator1_05
+    outer:
+      serializedVersion: 2
+      x: 554
+      y: 548
+      width: 179
+      height: 255
+    inner:
+      serializedVersion: 2
+      x: 554
+      y: 548
+      width: 179
+      height: 255
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .0980392173
+    paddingBottom: 0
+  - name: Img_Operator4_06
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 218
+      width: 179
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 218
+      width: 179
+      height: 273
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .025641026
+    paddingBottom: 0
+  - name: Img_Operator4_04
+    outer:
+      serializedVersion: 2
+      x: 554
+      y: 1322
+      width: 179
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 554
+      y: 1322
+      width: 179
+      height: 273
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .025641026
+    paddingBottom: 0
+  - name: Img_Operator2_05
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 1322
+      width: 179
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 1322
+      width: 179
+      height: 273
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .025641026
+    paddingBottom: 0
+  - name: Img_OperatorBig3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1092
+      width: 306
+      height: 476
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1092
+      width: 306
+      height: 476
+    rotated: 0
+    paddingLeft: .120915033
+    paddingRight: .120915033
+    paddingTop: .00840336177
+    paddingBottom: 0
+  - name: Img_Operator3_01
+    outer:
+      serializedVersion: 2
+      x: 1553
+      y: 1770
+      width: 179
+      height: 278
+    inner:
+      serializedVersion: 2
+      x: 1553
+      y: 1770
+      width: 179
+      height: 278
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .00719424477
+    paddingBottom: 0
+  - name: Img_Operator3_02
+    outer:
+      serializedVersion: 2
+      x: 643
+      y: 1769
+      width: 179
+      height: 279
+    inner:
+      serializedVersion: 2
+      x: 643
+      y: 1769
+      width: 179
+      height: 279
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .00358422939
+    paddingBottom: 0
+  - name: Img_Operator1_02
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 290
+      width: 179
+      height: 255
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 290
+      width: 179
+      height: 255
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .0980392173
+    paddingBottom: 0
+  - name: Img_OperatorBig4
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 627
+      width: 274
+      height: 462
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 627
+      width: 274
+      height: 462
+    rotated: 0
+    paddingLeft: .32846716
+    paddingRight: .0583941601
+    paddingTop: .038961038
+    paddingBottom: 0
+  - name: Img_OperatorBig5
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 1598
+      width: 268
+      height: 450
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 1598
+      width: 268
+      height: 450
+    rotated: 0
+    paddingLeft: .347014934
+    paddingRight: .0708955228
+    paddingTop: .0666666701
+    paddingBottom: 0
+  - name: Img_Operator1_06
+    outer:
+      serializedVersion: 2
+      x: 1646
+      y: 1340
+      width: 179
+      height: 255
+    inner:
+      serializedVersion: 2
+      x: 1646
+      y: 1340
+      width: 179
+      height: 255
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .0980392173
+    paddingBottom: 0
+  - name: Img_Operator1_01
+    outer:
+      serializedVersion: 2
+      x: 1828
+      y: 1340
+      width: 179
+      height: 255
+    inner:
+      serializedVersion: 2
+      x: 1828
+      y: 1340
+      width: 179
+      height: 255
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .0980392173
+    paddingBottom: 0
+  - name: Img_Operator3_04
+    outer:
+      serializedVersion: 2
+      x: 1007
+      y: 1770
+      width: 179
+      height: 278
+    inner:
+      serializedVersion: 2
+      x: 1007
+      y: 1770
+      width: 179
+      height: 278
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .00719424477
+    paddingBottom: 0
+  - name: Img_OperatorBig1
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 196
+      width: 285
+      height: 428
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 196
+      width: 285
+      height: 428
+    rotated: 0
+    paddingLeft: .143859655
+    paddingRight: .189473689
+    paddingTop: .121495329
+    paddingBottom: 0
+  - name: Img_Operator4_05
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 494
+      width: 179
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 494
+      width: 179
+      height: 273
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .025641026
+    paddingBottom: 0
+  - name: Img_Operator5_06
+    outer:
+      serializedVersion: 2
+      x: 554
+      y: 32
+      width: 179
+      height: 255
+    inner:
+      serializedVersion: 2
+      x: 554
+      y: 32
+      width: 179
+      height: 255
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .0980392173
+    paddingBottom: 0
+  - name: Img_Operator5_04
+    outer:
+      serializedVersion: 2
+      x: 554
+      y: 290
+      width: 179
+      height: 255
+    inner:
+      serializedVersion: 2
+      x: 554
+      y: 290
+      width: 179
+      height: 255
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .0980392173
+    paddingBottom: 0
+  - name: Img_Operator5_05
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 548
+      width: 179
+      height: 255
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 548
+      width: 179
+      height: 255
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .0980392173
+    paddingBottom: 0
+  - name: Img_Operator3_06
+    outer:
+      serializedVersion: 2
+      x: 1371
+      y: 1770
+      width: 179
+      height: 278
+    inner:
+      serializedVersion: 2
+      x: 1371
+      y: 1770
+      width: 179
+      height: 278
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .00719424477
+    paddingBottom: 0
+  - name: Img_Operator5_03
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 806
+      width: 179
+      height: 255
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 806
+      width: 179
+      height: 255
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .0980392173
+    paddingBottom: 0
+  - name: Img_Operator2_01
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 770
+      width: 179
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 770
+      width: 179
+      height: 273
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .025641026
+    paddingBottom: 0
+  - name: Img_Operator2_03
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 1322
+      width: 179
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 1322
+      width: 179
+      height: 273
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .025641026
+    paddingBottom: 0
+  - name: Img_Operator5_01
+    outer:
+      serializedVersion: 2
+      x: 554
+      y: 806
+      width: 179
+      height: 255
+    inner:
+      serializedVersion: 2
+      x: 554
+      y: 806
+      width: 179
+      height: 255
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .0980392173
+    paddingBottom: 0
+  - name: Img_Operator2_04
+    outer:
+      serializedVersion: 2
+      x: 918
+      y: 1322
+      width: 179
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 918
+      y: 1322
+      width: 179
+      height: 273
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .025641026
+    paddingBottom: 0
+  - name: Img_Operator3_05
+    outer:
+      serializedVersion: 2
+      x: 1189
+      y: 1770
+      width: 179
+      height: 278
+    inner:
+      serializedVersion: 2
+      x: 1189
+      y: 1770
+      width: 179
+      height: 278
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .00719424477
+    paddingBottom: 0
+  - name: Img_Operator3_03
+    outer:
+      serializedVersion: 2
+      x: 825
+      y: 1769
+      width: 179
+      height: 279
+    inner:
+      serializedVersion: 2
+      x: 825
+      y: 1769
+      width: 179
+      height: 279
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .00358422939
+    paddingBottom: 0
+  - name: Img_Operator1_03
+    outer:
+      serializedVersion: 2
+      x: 554
+      y: 1064
+      width: 179
+      height: 255
+    inner:
+      serializedVersion: 2
+      x: 554
+      y: 1064
+      width: 179
+      height: 255
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .0980392173
+    paddingBottom: 0
+  - name: Img_Operator4_01
+    outer:
+      serializedVersion: 2
+      x: 1100
+      y: 1322
+      width: 179
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 1100
+      y: 1322
+      width: 179
+      height: 273
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .025641026
+    paddingBottom: 0
+  - name: Img_Operator2_06
+    outer:
+      serializedVersion: 2
+      x: 1464
+      y: 1322
+      width: 179
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 1464
+      y: 1322
+      width: 179
+      height: 273
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .025641026
+    paddingBottom: 0
+  - name: Img_Operator4_03
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 1046
+      width: 179
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 1046
+      width: 179
+      height: 273
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .025641026
+    paddingBottom: 0
+  - name: Img_Operator5_02
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 32
+      width: 179
+      height: 255
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 32
+      width: 179
+      height: 255
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .0980392173
+    paddingBottom: 0
+  - name: Img_Operator2_02
+    outer:
+      serializedVersion: 2
+      x: 1735
+      y: 1775
+      width: 179
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 1735
+      y: 1775
+      width: 179
+      height: 273
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .025641026
+    paddingBottom: 0
+  - name: Img_Operator1_04
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 1064
+      width: 179
+      height: 255
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 1064
+      width: 179
+      height: 255
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .0980392173
+    paddingBottom: 0
+  - name: Img_Operator4_02
+    outer:
+      serializedVersion: 2
+      x: 1282
+      y: 1322
+      width: 179
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 1282
+      y: 1322
+      width: 179
+      height: 273
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00558659201
+    paddingTop: .025641026
+    paddingBottom: 0
+  - name: Img_OperatorBig2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1571
+      width: 369
+      height: 477
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1571
+      width: 369
+      height: 477
+    rotated: 0
+    paddingLeft: .0135501353
+    paddingRight: .016260162
+    paddingTop: .00628930796
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
