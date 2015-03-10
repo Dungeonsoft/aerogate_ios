@@ -1,0 +1,2254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: AeroGateAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: e2c6d14882ebe8f4795985bb9a8ab5ee, type: 2}
+  sprites:
+  - name: bt_bomb_n
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 242
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 242
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_pause_o
+    outer:
+      serializedVersion: 2
+      x: 827
+      y: 375
+      width: 62
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 827
+      y: 375
+      width: 62
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_skill1_o
+    outer:
+      serializedVersion: 2
+      x: 171
+      y: 577
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 171
+      y: 577
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_moveleft_n
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 715
+      width: 168
+      height: 192
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 715
+      width: 168
+      height: 192
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_moveleft_o
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 520
+      width: 168
+      height: 192
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 520
+      width: 168
+      height: 192
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_pause_n
+    outer:
+      serializedVersion: 2
+      x: 892
+      y: 375
+      width: 62
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 892
+      y: 375
+      width: 62
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_bomb_o
+    outer:
+      serializedVersion: 2
+      x: 171
+      y: 299
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 171
+      y: 299
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_box
+    outer:
+      serializedVersion: 2
+      x: 957
+      y: 385
+      width: 52
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 967
+      y: 395
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: .0192307699
+    paddingRight: .0192307699
+    paddingTop: .0192307699
+    paddingBottom: .0192307699
+  - name: gold_icon
+    outer:
+      serializedVersion: 2
+      x: 139
+      y: 396
+      width: 25
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 139
+      y: 396
+      width: 25
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_skill1_n
+    outer:
+      serializedVersion: 2
+      x: 171
+      y: 160
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 171
+      y: 160
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: count_gold_X
+    outer:
+      serializedVersion: 2
+      x: 139
+      y: 354
+      width: 26
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 139
+      y: 354
+      width: 26
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_icon3
+    outer:
+      serializedVersion: 2
+      x: 813
+      y: 217
+      width: 46
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 813
+      y: 217
+      width: 46
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0454545468
+  - name: item_icon1
+    outer:
+      serializedVersion: 2
+      x: 807
+      y: 116
+      width: 46
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 807
+      y: 116
+      width: 46
+      height: 33
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .212121218
+    paddingBottom: .181818187
+  - name: item_icon4
+    outer:
+      serializedVersion: 2
+      x: 716
+      y: 215
+      width: 45
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 716
+      y: 215
+      width: 45
+      height: 46
+    rotated: 0
+    paddingLeft: .0222222228
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_icon2
+    outer:
+      serializedVersion: 2
+      x: 972
+      y: 227
+      width: 46
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 972
+      y: 227
+      width: 46
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .205882356
+    paddingBottom: .14705883
+  - name: item_icon6
+    outer:
+      serializedVersion: 2
+      x: 716
+      y: 12
+      width: 42
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 716
+      y: 12
+      width: 42
+      height: 46
+    rotated: 0
+    paddingLeft: .0476190485
+    paddingRight: .0476190485
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_icon8
+    outer:
+      serializedVersion: 2
+      x: 764
+      y: 217
+      width: 46
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 764
+      y: 217
+      width: 46
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0227272734
+    paddingBottom: .0227272734
+  - name: item_icon5
+    outer:
+      serializedVersion: 2
+      x: 716
+      y: 61
+      width: 42
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 716
+      y: 61
+      width: 42
+      height: 46
+    rotated: 0
+    paddingLeft: .0476190485
+    paddingRight: .0476190485
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_icon9
+    outer:
+      serializedVersion: 2
+      x: 974
+      y: 861
+      width: 46
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 974
+      y: 861
+      width: 46
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_icon10
+    outer:
+      serializedVersion: 2
+      x: 974
+      y: 813
+      width: 46
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 974
+      y: 813
+      width: 46
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0222222228
+  - name: item_icon7
+    outer:
+      serializedVersion: 2
+      x: 716
+      y: 110
+      width: 43
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 716
+      y: 110
+      width: 43
+      height: 46
+    rotated: 0
+    paddingLeft: .0232558139
+    paddingRight: .0465116277
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_bomb_o_5
+    outer:
+      serializedVersion: 2
+      x: 449
+      y: 577
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 449
+      y: 577
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_bomb_o_6
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 577
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 577
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_bomb_o_3
+    outer:
+      serializedVersion: 2
+      x: 727
+      y: 577
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 727
+      y: 577
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_bomb_o_2
+    outer:
+      serializedVersion: 2
+      x: 866
+      y: 577
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 866
+      y: 577
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_bomb_o_4
+    outer:
+      serializedVersion: 2
+      x: 449
+      y: 438
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 449
+      y: 438
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_bomb_n_5
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 103
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 103
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_bomb_n_6
+    outer:
+      serializedVersion: 2
+      x: 171
+      y: 438
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 171
+      y: 438
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_bomb_n_4
+    outer:
+      serializedVersion: 2
+      x: 310
+      y: 21
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 310
+      y: 21
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_bomb_n_3
+    outer:
+      serializedVersion: 2
+      x: 310
+      y: 160
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 310
+      y: 160
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_bomb_n_2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 381
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 381
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bgr_Score
+    outer:
+      serializedVersion: 2
+      x: 753
+      y: 823
+      width: 218
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 753
+      y: 823
+      width: 218
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_skill2_n
+    outer:
+      serializedVersion: 2
+      x: 310
+      y: 299
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 310
+      y: 299
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_skill3_n
+    outer:
+      serializedVersion: 2
+      x: 310
+      y: 438
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 310
+      y: 438
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_skill3_o
+    outer:
+      serializedVersion: 2
+      x: 310
+      y: 577
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 310
+      y: 577
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_skill2_o
+    outer:
+      serializedVersion: 2
+      x: 171
+      y: 21
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 171
+      y: 21
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icn_Wingbox
+    outer:
+      serializedVersion: 2
+      x: 701
+      y: 717
+      width: 88
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 701
+      y: 717
+      width: 88
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bgr_Wingbox
+    outer:
+      serializedVersion: 2
+      x: 516
+      y: 54
+      width: 66
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 535
+      y: 72
+      width: 29
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icn_WingboxG
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 383
+      width: 88
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 383
+      width: 88
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bgb_Wingbox
+    outer:
+      serializedVersion: 2
+      x: 819
+      y: 552
+      width: 120
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 819
+      y: 552
+      width: 120
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Img_Critical
+    outer:
+      serializedVersion: 2
+      x: 804
+      y: 917
+      width: 108
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 804
+      y: 917
+      width: 108
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Img_Combo
+    outer:
+      serializedVersion: 2
+      x: 846
+      y: 272
+      width: 72
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 846
+      y: 272
+      width: 72
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Img_GameCount3
+    outer:
+      serializedVersion: 2
+      x: 449
+      y: 331
+      width: 112
+      height: 104
+    inner:
+      serializedVersion: 2
+      x: 449
+      y: 331
+      width: 112
+      height: 104
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Img_GameCount2
+    outer:
+      serializedVersion: 2
+      x: 449
+      y: 224
+      width: 112
+      height: 104
+    inner:
+      serializedVersion: 2
+      x: 449
+      y: 224
+      width: 112
+      height: 104
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Img_GameCount1
+    outer:
+      serializedVersion: 2
+      x: 449
+      y: 16
+      width: 64
+      height: 104
+    inner:
+      serializedVersion: 2
+      x: 449
+      y: 16
+      width: 64
+      height: 104
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Img_GameStart
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 910
+      width: 510
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 910
+      width: 510
+      height: 114
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00392156886
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Txt_ButtonFastRebirth
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 540
+      width: 228
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 540
+      width: 228
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_BlueClose_00
+    outer:
+      serializedVersion: 2
+      x: 831
+      y: 726
+      width: 84
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 831
+      y: 726
+      width: 84
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_YellowLarge_01
+    outer:
+      serializedVersion: 2
+      x: 171
+      y: 716
+      width: 288
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 171
+      y: 716
+      width: 288
+      height: 94
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_YellowLarge_00
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 813
+      width: 288
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 813
+      width: 288
+      height: 94
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_BlueClose_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 84
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 84
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Txt_ButtonRebirth
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 727
+      width: 236
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 727
+      width: 236
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_GreenLarge_00
+    outer:
+      serializedVersion: 2
+      x: 171
+      y: 813
+      width: 288
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 171
+      y: 813
+      width: 288
+      height: 94
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_GreenLarge_01
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 930
+      width: 288
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 513
+      y: 930
+      width: 288
+      height: 94
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icn_FieldRepairS
+    outer:
+      serializedVersion: 2
+      x: 139
+      y: 427
+      width: 26
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 139
+      y: 427
+      width: 26
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0344827585
+  - name: Eft_Spanner_01
+    outer:
+      serializedVersion: 2
+      x: 139
+      y: 459
+      width: 22
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 139
+      y: 459
+      width: 22
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icn_FieldRepairM
+    outer:
+      serializedVersion: 2
+      x: 764
+      y: 168
+      width: 40
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 764
+      y: 168
+      width: 40
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Txt_ButtonResult
+    outer:
+      serializedVersion: 2
+      x: 915
+      y: 923
+      width: 102
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 915
+      y: 923
+      width: 102
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bgr_AttackPowerCnt2
+    outer:
+      serializedVersion: 2
+      x: 764
+      y: 80
+      width: 37
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 764
+      y: 80
+      width: 37
+      height: 41
+    rotated: 0
+    paddingLeft: .540540516
+    paddingRight: .513513505
+    paddingTop: .390243888
+    paddingBottom: .463414639
+  - name: Bgr_Fuel
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 774
+      width: 366
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 774
+      width: 366
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bgr_AttackPowerCnt1
+    outer:
+      serializedVersion: 2
+      x: 764
+      y: 124
+      width: 37
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 764
+      y: 124
+      width: 37
+      height: 41
+    rotated: 0
+    paddingLeft: .540540516
+    paddingRight: .513513505
+    paddingTop: .390243888
+    paddingBottom: .463414639
+  - name: Bgr_AttackPower
+    outer:
+      serializedVersion: 2
+      x: 87
+      y: 24
+      width: 76
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 87
+      y: 24
+      width: 76
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icn_Fuel
+    outer:
+      serializedVersion: 2
+      x: 716
+      y: 159
+      width: 38
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 716
+      y: 159
+      width: 38
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bgr_GoldWormhole
+    outer:
+      serializedVersion: 2
+      x: 804
+      y: 958
+      width: 208
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 804
+      y: 958
+      width: 208
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bgr_AttackPowerCnt3
+    outer:
+      serializedVersion: 2
+      x: 807
+      y: 38
+      width: 46
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 807
+      y: 38
+      width: 46
+      height: 23
+    rotated: 0
+    paddingLeft: .304347813
+    paddingRight: .347826093
+    paddingTop: 1.173913
+    paddingBottom: 1.13043475
+  - name: Bgr_AttackPowerGage2
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 366
+      width: 71
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 366
+      width: 71
+      height: 71
+    rotated: 0
+    paddingLeft: .0281690136
+    paddingRight: .0422535203
+    paddingTop: .0281690136
+    paddingBottom: .0422535203
+  - name: Bgr_GoldWormholeSpin
+    outer:
+      serializedVersion: 2
+      x: 449
+      y: 123
+      width: 98
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 449
+      y: 123
+      width: 98
+      height: 98
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bgr_AttackPowerCnt0
+    outer:
+      serializedVersion: 2
+      x: 764
+      y: 36
+      width: 37
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 764
+      y: 36
+      width: 37
+      height: 41
+    rotated: 0
+    paddingLeft: .540540516
+    paddingRight: .513513505
+    paddingTop: .390243888
+    paddingBottom: .463414639
+  - name: Bgr_GoldWormholeGage
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 341
+      width: 120
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 341
+      width: 120
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bgr_AttackPowerGage1
+    outer:
+      serializedVersion: 2
+      x: 662
+      y: 366
+      width: 71
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 662
+      y: 366
+      width: 71
+      height: 71
+    rotated: 0
+    paddingLeft: .0281690136
+    paddingRight: .0422535203
+    paddingTop: .0281690136
+    paddingBottom: .0422535203
+  - name: Bgr_AttackPowerGage3
+    outer:
+      serializedVersion: 2
+      x: 918
+      y: 739
+      width: 71
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 918
+      y: 739
+      width: 71
+      height: 71
+    rotated: 0
+    paddingLeft: .0281690136
+    paddingRight: .0422535203
+    paddingTop: .0281690136
+    paddingBottom: .0422535203
+  - name: Eft_GoldWormholeGage
+    outer:
+      serializedVersion: 2
+      x: 139
+      y: 319
+      width: 10
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 139
+      y: 319
+      width: 10
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bgr_FuelGage004
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 465
+      width: 350
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 465
+      width: 350
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bgr_FuelGage001
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 515
+      width: 350
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 515
+      width: 350
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bgr_FuelGage002
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 490
+      width: 350
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 490
+      width: 350
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bgr_FuelGage003
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 440
+      width: 350
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 440
+      width: 350
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bullet02_008
+    outer:
+      serializedVersion: 2
+      x: 868
+      y: 67
+      width: 60
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 868
+      y: 67
+      width: 60
+      height: 25
+    rotated: 0
+    paddingLeft: .0166666675
+    paddingRight: .0166666675
+    paddingTop: .560000002
+    paddingBottom: .0399999991
+  - name: Bullet00_001
+    outer:
+      serializedVersion: 2
+      x: 941
+      y: 515
+      width: 54
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 941
+      y: 515
+      width: 54
+      height: 22
+    rotated: 0
+    paddingLeft: .0740740746
+    paddingRight: .0740740746
+    paddingTop: .409090906
+    paddingBottom: .409090906
+  - name: Bullet00_013
+    outer:
+      serializedVersion: 2
+      x: 651
+      y: 227
+      width: 62
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 651
+      y: 227
+      width: 62
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0857142881
+    paddingBottom: .0571428575
+  - name: Bullet02_005
+    outer:
+      serializedVersion: 2
+      x: 868
+      y: 41
+      width: 60
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 868
+      y: 41
+      width: 60
+      height: 23
+    rotated: 0
+    paddingLeft: .0166666675
+    paddingRight: .0166666675
+    paddingTop: .695652187
+    paddingBottom: .0434782617
+  - name: Bullet00_005
+    outer:
+      serializedVersion: 2
+      x: 911
+      y: 231
+      width: 58
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 911
+      y: 231
+      width: 58
+      height: 30
+    rotated: 0
+    paddingLeft: .0344827585
+    paddingRight: .0344827585
+    paddingTop: .166666672
+    paddingBottom: .166666672
+  - name: Bullet02_004
+    outer:
+      serializedVersion: 2
+      x: 931
+      y: 124
+      width: 60
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 931
+      y: 124
+      width: 60
+      height: 26
+    rotated: 0
+    paddingLeft: .0166666675
+    paddingRight: .0166666675
+    paddingTop: .5
+    paddingBottom: .0384615399
+  - name: Bullet01_011
+    outer:
+      serializedVersion: 2
+      x: 716
+      y: 301
+      width: 58
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 716
+      y: 301
+      width: 58
+      height: 37
+    rotated: 0
+    paddingLeft: .0344827585
+    paddingRight: .0344827585
+    paddingTop: .0540540554
+    paddingBottom: .0270270277
+  - name: Bullet00_011
+    outer:
+      serializedVersion: 2
+      x: 942
+      y: 540
+      width: 62
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 942
+      y: 540
+      width: 62
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0882352963
+    paddingBottom: .0882352963
+  - name: Bullet01_008
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 101
+      width: 58
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 101
+      width: 58
+      height: 37
+    rotated: 0
+    paddingLeft: .0344827585
+    paddingRight: .0344827585
+    paddingTop: .0540540554
+    paddingBottom: .0270270277
+  - name: Bullet00_004
+    outer:
+      serializedVersion: 2
+      x: 807
+      y: 90
+      width: 58
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 807
+      y: 90
+      width: 58
+      height: 23
+    rotated: 0
+    paddingLeft: .0344827585
+    paddingRight: .0344827585
+    paddingTop: .391304344
+    paddingBottom: .347826093
+  - name: Bullet01_012
+    outer:
+      serializedVersion: 2
+      x: 651
+      y: 147
+      width: 58
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 651
+      y: 147
+      width: 58
+      height: 37
+    rotated: 0
+    paddingLeft: .0344827585
+    paddingRight: .0344827585
+    paddingTop: .0540540554
+    paddingBottom: .0270270277
+  - name: Bullet01_015
+    outer:
+      serializedVersion: 2
+      x: 651
+      y: 107
+      width: 58
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 651
+      y: 107
+      width: 58
+      height: 37
+    rotated: 0
+    paddingLeft: .0344827585
+    paddingRight: .0344827585
+    paddingTop: .0540540554
+    paddingBottom: .0270270277
+  - name: Bullet02_014
+    outer:
+      serializedVersion: 2
+      x: 516
+      y: 14
+      width: 60
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 516
+      y: 14
+      width: 60
+      height: 37
+    rotated: 0
+    paddingLeft: .0166666675
+    paddingRight: .0166666675
+    paddingTop: .0540540554
+    paddingBottom: .0270270277
+  - name: Bullet01_006
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 61
+      width: 58
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 61
+      width: 58
+      height: 37
+    rotated: 0
+    paddingLeft: .0344827585
+    paddingRight: .0344827585
+    paddingTop: .0540540554
+    paddingBottom: .0270270277
+  - name: Bullet01_014
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 21
+      width: 58
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 21
+      width: 58
+      height: 37
+    rotated: 0
+    paddingLeft: .0344827585
+    paddingRight: .0344827585
+    paddingTop: .0540540554
+    paddingBottom: .0270270277
+  - name: Bullet00_010
+    outer:
+      serializedVersion: 2
+      x: 716
+      y: 264
+      width: 62
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 716
+      y: 264
+      width: 62
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0882352963
+    paddingBottom: .0882352963
+  - name: Bullet01_002
+    outer:
+      serializedVersion: 2
+      x: 931
+      y: 185
+      width: 58
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 931
+      y: 185
+      width: 58
+      height: 29
+    rotated: 0
+    paddingLeft: .0344827585
+    paddingRight: .0344827585
+    paddingTop: .206896558
+    paddingBottom: .172413796
+  - name: Bullet01_001
+    outer:
+      serializedVersion: 2
+      x: 807
+      y: 152
+      width: 58
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 807
+      y: 152
+      width: 58
+      height: 29
+    rotated: 0
+    paddingLeft: .0344827585
+    paddingRight: .0344827585
+    paddingTop: .206896558
+    paddingBottom: .172413796
+  - name: Bullet01_013
+    outer:
+      serializedVersion: 2
+      x: 651
+      y: 187
+      width: 58
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 651
+      y: 187
+      width: 58
+      height: 37
+    rotated: 0
+    paddingLeft: .0344827585
+    paddingRight: .0344827585
+    paddingTop: .0540540554
+    paddingBottom: .0270270277
+  - name: Bullet02_012
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 301
+      width: 60
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 301
+      width: 60
+      height: 37
+    rotated: 0
+    paddingLeft: .0166666675
+    paddingRight: .0166666675
+    paddingTop: .0540540554
+    paddingBottom: .0270270277
+  - name: Bullet01_009
+    outer:
+      serializedVersion: 2
+      x: 899
+      y: 301
+      width: 58
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 899
+      y: 301
+      width: 58
+      height: 37
+    rotated: 0
+    paddingLeft: .0344827585
+    paddingRight: .0344827585
+    paddingTop: .0540540554
+    paddingBottom: .0270270277
+  - name: Bullet01_003
+    outer:
+      serializedVersion: 2
+      x: 921
+      y: 267
+      width: 58
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 921
+      y: 267
+      width: 58
+      height: 31
+    rotated: 0
+    paddingLeft: .0344827585
+    paddingRight: .0344827585
+    paddingTop: .129032254
+    paddingBottom: .161290318
+  - name: Bullet00_006
+    outer:
+      serializedVersion: 2
+      x: 807
+      y: 184
+      width: 58
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 807
+      y: 184
+      width: 58
+      height: 30
+    rotated: 0
+    paddingLeft: .0344827585
+    paddingRight: .0344827585
+    paddingTop: .166666672
+    paddingBottom: .166666672
+  - name: Bullet02_015
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 221
+      width: 60
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 221
+      width: 60
+      height: 37
+    rotated: 0
+    paddingLeft: .0166666675
+    paddingRight: .0166666675
+    paddingTop: .0540540554
+    paddingBottom: .0270270277
+  - name: Bullet00_002
+    outer:
+      serializedVersion: 2
+      x: 941
+      y: 490
+      width: 54
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 941
+      y: 490
+      width: 54
+      height: 22
+    rotated: 0
+    paddingLeft: .0740740746
+    paddingRight: .0740740746
+    paddingTop: .409090906
+    paddingBottom: .409090906
+  - name: Bullet02_009
+    outer:
+      serializedVersion: 2
+      x: 931
+      y: 154
+      width: 60
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 931
+      y: 154
+      width: 60
+      height: 27
+    rotated: 0
+    paddingLeft: .0166666675
+    paddingRight: .0166666675
+    paddingTop: .444444448
+    paddingBottom: .0370370373
+  - name: Bullet02_003
+    outer:
+      serializedVersion: 2
+      x: 941
+      y: 467
+      width: 56
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 941
+      y: 467
+      width: 56
+      height: 20
+    rotated: 0
+    paddingLeft: .0535714291
+    paddingRight: .0535714291
+    paddingTop: .550000012
+    paddingBottom: .449999988
+  - name: Bullet00_012
+    outer:
+      serializedVersion: 2
+      x: 781
+      y: 265
+      width: 62
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 781
+      y: 265
+      width: 62
+      height: 33
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .121212125
+    paddingBottom: .0909090936
+  - name: Bullet00_009
+    outer:
+      serializedVersion: 2
+      x: 960
+      y: 307
+      width: 60
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 960
+      y: 307
+      width: 60
+      height: 31
+    rotated: 0
+    paddingLeft: .0166666675
+    paddingRight: .0166666675
+    paddingTop: .161290318
+    paddingBottom: .129032254
+  - name: Bullet00_008
+    outer:
+      serializedVersion: 2
+      x: 868
+      y: 153
+      width: 60
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 868
+      y: 153
+      width: 60
+      height: 28
+    rotated: 0
+    paddingLeft: .0166666675
+    paddingRight: .0166666675
+    paddingTop: .25
+    paddingBottom: .178571433
+  - name: Bullet00_014
+    outer:
+      serializedVersion: 2
+      x: 651
+      y: 303
+      width: 62
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 651
+      y: 303
+      width: 62
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0857142881
+    paddingBottom: .0571428575
+  - name: Bullet00_015
+    outer:
+      serializedVersion: 2
+      x: 651
+      y: 265
+      width: 62
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 651
+      y: 265
+      width: 62
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0857142881
+    paddingBottom: .0571428575
+  - name: Bullet01_010
+    outer:
+      serializedVersion: 2
+      x: 651
+      y: 67
+      width: 58
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 651
+      y: 67
+      width: 58
+      height: 37
+    rotated: 0
+    paddingLeft: .0344827585
+    paddingRight: .0344827585
+    paddingTop: .0540540554
+    paddingBottom: .0270270277
+  - name: Bullet02_006
+    outer:
+      serializedVersion: 2
+      x: 868
+      y: 95
+      width: 60
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 868
+      y: 95
+      width: 60
+      height: 25
+    rotated: 0
+    paddingLeft: .0166666675
+    paddingRight: .0166666675
+    paddingTop: .560000002
+    paddingBottom: .0399999991
+  - name: Bullet00_003
+    outer:
+      serializedVersion: 2
+      x: 807
+      y: 64
+      width: 54
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 807
+      y: 64
+      width: 54
+      height: 23
+    rotated: 0
+    paddingLeft: .0740740746
+    paddingRight: .0740740746
+    paddingTop: .391304344
+    paddingBottom: .347826093
+  - name: Bullet02_001
+    outer:
+      serializedVersion: 2
+      x: 941
+      y: 442
+      width: 56
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 941
+      y: 442
+      width: 56
+      height: 20
+    rotated: 0
+    paddingLeft: .0535714291
+    paddingRight: .0535714291
+    paddingTop: .550000012
+    paddingBottom: .449999988
+  - name: Bullet02_010
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 181
+      width: 60
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 181
+      width: 60
+      height: 37
+    rotated: 0
+    paddingLeft: .0166666675
+    paddingRight: .0166666675
+    paddingTop: .0540540554
+    paddingBottom: .0270270277
+  - name: Bullet01_005
+    outer:
+      serializedVersion: 2
+      x: 651
+      y: 27
+      width: 58
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 651
+      y: 27
+      width: 58
+      height: 37
+    rotated: 0
+    paddingLeft: .0344827585
+    paddingRight: .0344827585
+    paddingTop: .0540540554
+    paddingBottom: .0270270277
+  - name: Bullet02_007
+    outer:
+      serializedVersion: 2
+      x: 868
+      y: 123
+      width: 60
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 868
+      y: 123
+      width: 60
+      height: 27
+    rotated: 0
+    paddingLeft: .0166666675
+    paddingRight: .0166666675
+    paddingTop: .444444448
+    paddingBottom: .0370370373
+  - name: Bullet02_011
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 141
+      width: 60
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 141
+      width: 60
+      height: 37
+    rotated: 0
+    paddingLeft: .0166666675
+    paddingRight: .0166666675
+    paddingTop: .0540540554
+    paddingBottom: .0270270277
+  - name: Bullet01_004
+    outer:
+      serializedVersion: 2
+      x: 777
+      y: 301
+      width: 58
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 777
+      y: 301
+      width: 58
+      height: 37
+    rotated: 0
+    paddingLeft: .0344827585
+    paddingRight: .0344827585
+    paddingTop: .0540540554
+    paddingBottom: .0270270277
+  - name: Bullet02_002
+    outer:
+      serializedVersion: 2
+      x: 918
+      y: 716
+      width: 56
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 918
+      y: 716
+      width: 56
+      height: 20
+    rotated: 0
+    paddingLeft: .0535714291
+    paddingRight: .0535714291
+    paddingTop: .550000012
+    paddingBottom: .449999988
+  - name: Bullet01_007
+    outer:
+      serializedVersion: 2
+      x: 838
+      y: 301
+      width: 58
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 838
+      y: 301
+      width: 58
+      height: 37
+    rotated: 0
+    paddingLeft: .0344827585
+    paddingRight: .0344827585
+    paddingTop: .0540540554
+    paddingBottom: .0270270277
+  - name: Bullet02_013
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 261
+      width: 60
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 261
+      width: 60
+      height: 37
+    rotated: 0
+    paddingLeft: .0166666675
+    paddingRight: .0166666675
+    paddingTop: .0540540554
+    paddingBottom: .0270270277
+  - name: Bullet00_007
+    outer:
+      serializedVersion: 2
+      x: 868
+      y: 185
+      width: 60
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 868
+      y: 185
+      width: 60
+      height: 29
+    rotated: 0
+    paddingLeft: .0166666675
+    paddingRight: .0166666675
+    paddingTop: .206896558
+    paddingBottom: .172413796
+  - name: item_icon11
+    outer:
+      serializedVersion: 2
+      x: 862
+      y: 219
+      width: 46
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 862
+      y: 219
+      width: 46
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0714285746
+    paddingBottom: .0238095243
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

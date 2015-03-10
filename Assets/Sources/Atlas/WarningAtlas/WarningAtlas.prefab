@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: WarningAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 347a03266b4687344b93fb06702837ce, type: 2}
+  sprites:
+  - name: Bgr_NoticeLine1
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 824
+      width: 1020
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 824
+      width: 1020
+      height: 45
+    rotated: 0
+    paddingLeft: .00392156886
+    paddingRight: 0
+    paddingTop: .0222222228
+    paddingBottom: 0
+  - name: Bgr_NoticeLine4
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 776
+      width: 1020
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 776
+      width: 1020
+      height: 45
+    rotated: 0
+    paddingLeft: .00392156886
+    paddingRight: 0
+    paddingTop: .0222222228
+    paddingBottom: 0
+  - name: Bgr_NoticeLine3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 728
+      width: 1020
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 728
+      width: 1020
+      height: 45
+    rotated: 0
+    paddingLeft: .00392156886
+    paddingRight: 0
+    paddingTop: .0222222228
+    paddingBottom: 0
+  - name: Bgr_NoticeBase
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 872
+      width: 1020
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 872
+      width: 1020
+      height: 152
+    rotated: 0
+    paddingLeft: .00392156886
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bgr_NoticeLine6
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 680
+      width: 1020
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 680
+      width: 1020
+      height: 45
+    rotated: 0
+    paddingLeft: .00392156886
+    paddingRight: 0
+    paddingTop: .0222222228
+    paddingBottom: 0
+  - name: Bgr_NoticeLine5
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 632
+      width: 1020
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 632
+      width: 1020
+      height: 45
+    rotated: 0
+    paddingLeft: .00392156886
+    paddingRight: 0
+    paddingTop: .0222222228
+    paddingBottom: 0
+  - name: Bgr_NoticeLine2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 584
+      width: 1020
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 584
+      width: 1020
+      height: 45
+    rotated: 0
+    paddingLeft: .00392156886
+    paddingRight: 0
+    paddingTop: .0222222228
+    paddingBottom: 0
+  - name: Bgr_NoticeWarning01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 419
+      width: 489
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 419
+      width: 489
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00613496918
+    paddingTop: .0131578948
+    paddingBottom: .092105262
+  - name: Bgr_NoticeWarning00
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 498
+      width: 491
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 498
+      width: 491
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00203665998
+    paddingTop: .0120481923
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
