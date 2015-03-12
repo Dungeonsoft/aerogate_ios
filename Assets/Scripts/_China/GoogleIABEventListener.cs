@@ -93,26 +93,26 @@ public class GoogleIABEventListener : MonoBehaviour
 	{
 		Debug.Log( "purchaseSucceededEvent: " + purchase );
         
-        if (purchase.productId == "com.joywinggames.maydayaos001")        {
+        //if (purchase.productId == "com.joywinggames.maydayaos001")        {
 
-            StartCoroutine(Manager.GetComponent<PurchaseManager>().SendPurchasedLog20(purchasedData, purchasedSiganture));
-        }
-        if (purchase.productId == "com.joywinggames.maydayaos002")
-        {
-            StartCoroutine(Manager.GetComponent<PurchaseManager>().SendPurchasedLog50(purchasedData, purchasedSiganture));
-        }
-        if (purchase.productId == "com.joywinggames.maydayaos003")
-        {
-            StartCoroutine(Manager.GetComponent<PurchaseManager>().SendPurchasedLog100(purchasedData, purchasedSiganture));
-        }
-        if (purchase.productId == "com.joywinggames.maydayaos004")
-        {
-            StartCoroutine(Manager.GetComponent<PurchaseManager>().SendPurchasedLog300(purchasedData, purchasedSiganture));
-        }
-        if (purchase.productId == "com.joywinggames.maydayaos005")
-        {
-            StartCoroutine(Manager.GetComponent<PurchaseManager>().SendPurchasedLog1000(purchasedData, purchasedSiganture));
-        }
+        //    StartCoroutine(Manager.GetComponent<PurchaseManager>().SendPurchasedLog20(purchasedData, purchasedSiganture));
+        //}
+        //if (purchase.productId == "com.joywinggames.maydayaos002")
+        //{
+        //    StartCoroutine(Manager.GetComponent<PurchaseManager>().SendPurchasedLog50(purchasedData, purchasedSiganture));
+        //}
+        //if (purchase.productId == "com.joywinggames.maydayaos003")
+        //{
+        //    StartCoroutine(Manager.GetComponent<PurchaseManager>().SendPurchasedLog100(purchasedData, purchasedSiganture));
+        //}
+        //if (purchase.productId == "com.joywinggames.maydayaos004")
+        //{
+        //    StartCoroutine(Manager.GetComponent<PurchaseManager>().SendPurchasedLog300(purchasedData, purchasedSiganture));
+        //}
+        //if (purchase.productId == "com.joywinggames.maydayaos005")
+        //{
+        //    StartCoroutine(Manager.GetComponent<PurchaseManager>().SendPurchasedLog1000(purchasedData, purchasedSiganture));
+        //}
 	}
 
 
