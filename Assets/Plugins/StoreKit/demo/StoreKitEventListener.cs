@@ -102,25 +102,27 @@ public class StoreKitEventListener : MonoBehaviour
 				break;
 			case 2:
 				Debug.Log( "purchaseSuccessfulEvent: " + transaction );
-				Goods01.SendMessage("Purchase");
+				Goods02.SendMessage("Purchase");
 				loadingWindow.SetActive(false);
 				break;
 			case 3:
 				Debug.Log( "purchaseSuccessfulEvent: " + transaction );
-				Goods01.SendMessage("Purchase");
+				Goods03.SendMessage("Purchase");
 				loadingWindow.SetActive(false);
 				break;
 			case 4:
 				Debug.Log( "purchaseSuccessfulEvent: " + transaction );
-				Goods01.SendMessage("Purchase");
+				Goods04.SendMessage("Purchase");
 				loadingWindow.SetActive(false);
 				break;
 			case 5:
 				Debug.Log( "purchaseSuccessfulEvent: " + transaction );
 				loadingWindow.SetActive(false);
-				Goods01.SendMessage("Purchase");
+				Goods05.SendMessage("Purchase");
 				break;
 		}
+
+
 	}
 	
 	
