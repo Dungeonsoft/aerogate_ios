@@ -537,13 +537,13 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="IFacebook">
- <HintPath>/Volumes/Mac/Project/aerogate/aerogate_ios/Assets/Facebook/Scripts/IFacebook.dll</HintPath>
+ <HintPath>/Volumes/Data/git_project/aerogate_ios/Assets/Facebook/Scripts/IFacebook.dll</HintPath>
  </Reference>
  <Reference Include="Glow11">
- <HintPath>/Volumes/Mac/Project/aerogate/aerogate_ios/Assets/Glow11/_internal/Plugins/Glow11.dll</HintPath>
+ <HintPath>/Volumes/Data/git_project/aerogate_ios/Assets/Glow11/_internal/Plugins/Glow11.dll</HintPath>
  </Reference>
  <Reference Include="P31RestKit">
- <HintPath>/Volumes/Mac/Project/aerogate/aerogate_ios/Assets/Plugins/P31RestKit.dll</HintPath>
+ <HintPath>/Volumes/Data/git_project/aerogate_ios/Assets/Plugins/P31RestKit.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

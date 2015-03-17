@@ -115,7 +115,7 @@ PlayerSettings:
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
-    - m_Icon: {fileID: 2800000, guid: 941a264c4e41a4147b040c5ab853c2ce, type: 3}
+    - m_Icon: {fileID: 2800000, guid: 809387e65c92d4bf0b5663598a6f5c05, type: 3}
       m_Size: 128
   - m_BuildTarget: Standalone
     m_Icons:
@@ -133,22 +133,6 @@ PlayerSettings:
       m_Size: 32
     - m_Icon: {fileID: 2800000, guid: 272ab6a1b5c94714fb7e39d170ae6263, type: 3}
       m_Size: 16
-  - m_BuildTarget: iPhone
-    m_Icons:
-    - m_Icon: {fileID: 2800000, guid: dff729236ceb83b439f0a49223f2e643, type: 3}
-      m_Size: 152
-    - m_Icon: {fileID: 2800000, guid: dff729236ceb83b439f0a49223f2e643, type: 3}
-      m_Size: 144
-    - m_Icon: {fileID: 2800000, guid: dff729236ceb83b439f0a49223f2e643, type: 3}
-      m_Size: 120
-    - m_Icon: {fileID: 2800000, guid: dff729236ceb83b439f0a49223f2e643, type: 3}
-      m_Size: 114
-    - m_Icon: {fileID: 2800000, guid: dff729236ceb83b439f0a49223f2e643, type: 3}
-      m_Size: 76
-    - m_Icon: {fileID: 2800000, guid: dff729236ceb83b439f0a49223f2e643, type: 3}
-      m_Size: 72
-    - m_Icon: {fileID: 2800000, guid: dff729236ceb83b439f0a49223f2e643, type: 3}
-      m_Size: 57
   m_BuildTargetBatching:
   - m_BuildTarget: Android
     m_StaticBatching: 1
@@ -199,7 +183,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     1: 7
     2: 
-    7: EVERYPLAY_ANDROID
+    7: 
     11: Glow11TestObject
     12: 7
   metroPackageName: AeroGate
